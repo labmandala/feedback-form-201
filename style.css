@@ -209,37 +209,13 @@ textarea.form__input {
   flex: 1 0 auto;
   justify-content: center;
 }
-/*
-.nav {
-  width: 100%;
-  text-align: center;
 
-}
-*/
-/*
-.nav__item {
-  display: inline; 
-}
-*/
 @media (min-width: 640px) {
   .nav {
     justify-content: flex-end;
   }
 }
-/*
-@media (min-width: 640px) {
-  .nav {
-    text-align: right;
-    width: calc(100% - 130px - 124px - 64px);
-  }
-}
 
-@media (min-width: 1024px) {
-  .nav {
-    width: calc(100% - 130px - 330px - 124px - 64px);
-  }
-}
-*/
 .form__info > :first-child {
   display: flex;
   align-items: center;
@@ -254,11 +230,6 @@ textarea.form__input {
   display: flex;
   flex-wrap: wrap;
 }
-/*
-.form__section {
-  width: 100%;
-}
-*/
 
 .form__section {
   flex: 1 1 525px;
@@ -275,17 +246,6 @@ textarea.form__input {
   display: flex;
   flex-direction: column;
 }
-/*
-@media (min-width: 1024px) {
-  .form__section--one {
-    width: 525px;
-  }
-
-  .form__section--two {
-    width: calc(100% - 525px);
-  }
-}
-*/
 
 /* Radio Button Styles */
 
